@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Desc h1 {
+    border-bottom: 2px solid black;
+    font-weight: 700;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    height: 100vh;
+    overflow: scroll;
+    position: fixed;
+    width: 350px;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: rgb(216, 2, 2);
+}
+
+.navbar a {
+    border-bottom: 0.6px solid black;
+    display: block;
+    color: rgb(104, 62, 32);
+    cursor: pointer;
+    font-weight: 300;
+    padding: 15px;
+    text-decoration: none;
+    width: 100%;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 410px;
+    padding: 20px 20px 20px 10px;
+    margin-bottom: 0px;
+}
+
+.main-section header {
+    text-align: left;
+}
+
+.main-section header h1 {
+    font-weight: 700;  
+}
+
+.main-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-section p {
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.main-section li {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+    margin: .5rem;
+}
+
+.main-section li strong {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
