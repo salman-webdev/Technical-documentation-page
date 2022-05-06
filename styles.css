@@ -1,5 +1,6 @@
 body {
     box-sizing: border-box;
+    color: #767676;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +51,7 @@ body {
     font-weight: 700;  
 }
 
-.main-section h3 {
+.main-section h2 {
     font-size: 18px;
     font-weight: 600;
 }
@@ -70,6 +71,19 @@ body {
 .main-section li strong {
     font-weight: 400;
     text-decoration: underline;
+}
+
+#Interaction_Design ul li {
+    list-style-type: none;
+}
+
+#Interaction_Design ul li b {
+    text-decoration: underline;
+}
+
+#References a {
+    color: blue;
+    text-decoration: none;
 }
 
 
