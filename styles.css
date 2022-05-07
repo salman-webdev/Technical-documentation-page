@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-.navbar {
+nav {
     height: 100vh;
     overflow: scroll;
     position: fixed;
@@ -87,7 +87,7 @@ body {
 }
 
 @media (max-width: 947px) {
-    .navbar {
+    nav {
         background: #dddd;
         position: fixed;
         top: 0;
