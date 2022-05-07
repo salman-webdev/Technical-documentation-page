@@ -13,19 +13,19 @@ body {
     text-align: center;
 }
 
-nav#navbar.navbar {
+.navbar {
     height: 100vh;
     overflow: scroll;
     position: fixed;
     width: 350px;
 }
 
-nav#navbar.navbar::-webkit-scrollbar-thumb {
+.navbar::-webkit-scrollbar-thumb {
     width: 10px;
     background-color: rgb(216, 2, 2);
 }
 
-nav#navbar.navbar a {
+.navbar a {
     border-bottom: 0.6px solid black;
     display: block;
     color: rgb(104, 62, 32);
@@ -87,7 +87,7 @@ nav#navbar.navbar a {
 }
 
 @media (max-width: 947px) {
-    nav#navbar.navbar {
+    .navbar {
         background: #dddd;
         position: fixed;
         top: 0;
