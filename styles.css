@@ -86,4 +86,21 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 947px) {
+    .navbar {
+        background: #dddd;
+        position: fixed;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        max-height: 297px;
+        z-index: 1;
+      }
+
+      #main-doc {
+        margin: auto;
+        margin-top: 270px;
+        position: relative;
+      }
+}
 
